@@ -8,7 +8,6 @@ A professional cloud portfolio showcasing real-world projects built with AWS, Te
 
 🚀 The project is live here
 👉 d1jskvl1ulsdp8.cloudfront.net
-
 ---
 
 ## 👩‍💻 About Me
