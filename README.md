@@ -1,114 +1,100 @@
-# 🚀 Cleanora Cloud Portfolio
+🚀 Cleanora Cloud Portfolio
 
-A professional cloud portfolio showcasing real-world projects built with AWS, Terraform, and CI/CD automation.
+A production-ready cloud portfolio demonstrating real-world infrastructure design and deployment using AWS, Terraform, and CI/CD automation.
 
----
+🌍 Live Demo
 
-## 🌍 Live Demo
+🚀 Live Website:
+👉 https://d1jskvl1ulsdp8.cloudfront.net
 
-🚀 The project is live here
-👉 d1jskvl1ulsdp8.cloudfront.net
----
+👩‍💻 About Me
 
-## 👩‍💻 About Me
+Cloud Engineer in progress with hands-on experience building scalable, secure, and automated cloud infrastructure using AWS and Infrastructure as Code (IaC).
 
-Aspiring Cloud Engineer with hands-on experience in building scalable and production-ready infrastructure using AWS and Infrastructure as Code (IaC).
+Focused on:
 
----
+Cloud Architecture
+Automation with Terraform
+CI/CD pipelines
+Cost-aware infrastructure design
+📂 Projects
+🔹 1. AWS Infrastructure with Terraform
 
-## 📂 Projects
+Provisioned a complete, production-style AWS infrastructure using modular Terraform.
 
-### 🔹 1. AWS Infrastructure with Terraform
+✔️ Features:
 
-Designed and provisioned a complete AWS infrastructure using Terraform.
+Custom VPC with public & private subnets
+Internet Gateway & Route Tables
+EC2 instances across subnets
+Application Load Balancer (ALB)
+NAT Gateway for private subnet access
+Security Groups with controlled access
+Fully modular Terraform structure
 
-**✔️ What I built:**
+💡 Highlights:
 
-* Custom VPC with public & private subnets
-* Internet Gateway & Route Tables
-* EC2 instances deployment
-* Security Groups configuration
-* Modular Terraform architecture
-* ALB
-* nat Gateway
+Infrastructure fully automated (IaC)
+Scalable and reusable modules
+Designed following best practices
+🔹 2. Static Website Deployment (S3 + CloudFront + CI/CD)
 
-**💡 Key Value:**
+Built and deployed a secure, high-performance static website with automated delivery.
 
-* Fully automated infrastructure
-* Reusable and scalable modules
-* Clean and production-style setup
+✔️ Features:
 
----
+S3 bucket for static hosting
+CloudFront CDN for global performance
+HTTPS enabled using SSL certificate
+CI/CD pipeline using GitHub Actions
+Auto-deployment on every push
 
-### 🔹 2. Static Website Deployment (S3 + CloudFront + CI/CD)
+💡 Highlights:
 
-Deployed a high-performance static website using AWS services with automated deployment.
+Real-world deployment workflow
+Zero manual deployment
+Optimized performance & security
+🛠️ Tech Stack
+Terraform (Infrastructure as Code)
+AWS Services:
+EC2
+S3
+CloudFront
+VPC
+IAM
+Git & GitHub
+GitHub Actions (CI/CD)
+🔄 CI/CD Pipeline
+GitHub → GitHub Actions → Build → Deploy to S3 → CloudFront توزيع 🚀
 
-**✔️ What I built:**
+✔️ Fully automated deployment
+✔️ Triggered on every push
+✔️ No manual intervention
 
-* S3 bucket for static hosting
-* CloudFront CDN for fast global delivery
-* HTTPS configuration (SSL)
-* CI/CD pipeline using GitHub Actions
-* Automatic deployment on every push
+📸 Architecture
 
-**💡 Key Value:**
+📌 Add:
 
-* Real production workflow
-* Fast and secure delivery
-* Hands-free deployment
+Architecture Diagram (recommended)
+Terraform structure screenshot
+ 
 
----
-
-## 🛠️ Tech Stack
-
-* Terraform
-* AWS (EC2, S3, CloudFront, VPC, IAM)
-* Git & GitHub
-* GitHub Actions
-
----
-
-## 🔄 CI/CD Pipeline
-
-GitHub → Build → Deploy to AWS (S3) → CloudFront Distribution 🚀
-
----
-
-## 📸 Architecture
-
-📌 (Add your architecture diagram or screenshots here)
-
----
-
-## 🚀 How to Run the Project
-
-```bash
+🚀 How to Run
 git clone git@github.com:ahmedgouhar/cleanora-portfolio.git
 cd cleanora-portfolio
 
 terraform init
 terraform apply
-``
+📌 Future Improvements
+Add monitoring with CloudWatch
+Implement centralized logging
+Apply IAM least privilege model
+Multi-environment setup (dev / staging / prod)
+Add Terraform remote backend (S3 + DynamoDB)
+📬 Contact
+📧 Email: waela8214@gmail.com
+💼 LinkedIn:
+https://www.linkedin.com/in/ahmed-wael-abdelaziz-ahmed-gouhar-1a679a301/
+⭐ Support
 
----
-
-## 📌 Future Improvements
-
-* Add monitoring with CloudWatch
-* Implement logging system
-* Improve security with IAM roles
-* Multi-environment setup (dev / staging / prod)
-
----
-
-## 📬 Contact
-
-* email   >waela8214@gmail.com
-* LinkedIn: (https://www.linkedin.com/in/ahmed-wael-abdelaziz-ahmed-gouhar-1a679a301/)
-
----
-
-⭐ If you like this project, don't forget to star the repo!
-
-
+If you found this project useful, consider giving it a ⭐ on GitHub!
